@@ -10,7 +10,7 @@ def calcular_faturamento(faturamento_diario):
     return menor_valor, maior_valor, dias_acima_da_media
 
 if __name__ == "__main__":
-    with open('faturamento.json', 'r') as file:
+    with open('dados.json', 'r') as file:
         faturamento_diario = json.load(file)
     
     menor_valor, maior_valor, dias_acima_da_media = calcular_faturamento(faturamento_diario)
