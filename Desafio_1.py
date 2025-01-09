@@ -4,3 +4,4 @@ Enquanto K < INDICE faça {
     SOMA = SOMA + K;
 }
 Imprimir(SOMA);
+# RESPOSTA FOI = 91
